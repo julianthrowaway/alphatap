@@ -2,6 +2,9 @@ Alphatap::Application.routes.draw do
 
   devise_for :users
 
+  resources :statuses
+
+
   get "pages/home"
 
   get "pages/about"
