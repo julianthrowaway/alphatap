@@ -68,10 +68,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="20" selection-start="79" selection-end="79" vertical-scroll-proportion="0.08153477">
+            <state line="4" column="20" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="status.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/status.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="34" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,16 +89,16 @@
       <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/statuses/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="27" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/statuses/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="6" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+            <state line="8" column="9" selection-start="162" selection-end="162" vertical-scroll-proportion="0.16306955">
               <folding />
             </state>
           </provider>
@@ -99,15 +108,6 @@
         <entry file="file://$PROJECT_DIR$/app/views/statuses/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/statuses/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="24" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,14 +132,14 @@
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20120125182005_create_statuses.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/models/status.rb" />
         <option value="$PROJECT_DIR$/app/views/statuses/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/statuses/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/statuses/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/statuses/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/statuses_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/models/status.rb" />
+        <option value="$PROJECT_DIR$/app/views/statuses/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/statuses/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -705,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/status.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/statuses/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="24" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
@@ -722,20 +715,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/statuses/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/statuses/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/statuses/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -777,7 +756,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="79" selection-end="79" vertical-scroll-proportion="0.08153477">
+        <state line="4" column="20" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/status.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="34" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/statuses/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/statuses/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="9" selection-start="162" selection-end="162" vertical-scroll-proportion="0.16306955">
           <folding />
         </state>
       </provider>

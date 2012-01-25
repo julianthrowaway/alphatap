@@ -1,3 +1,2 @@
-class Status < ActiveRecord::
-    belongs_to :user
+class Status < ActiveRecord::Base
 end
